@@ -8,13 +8,13 @@ const Contact = () => {
     {
       icon: <FaPhone className={styles.icon} />,
       title: 'Phone',
-      value: '+1 (555) 123-4567',
+      value: '+91 7488107724',
       link: 'tel:+15551234567',
     },
     {
       icon: <FaWhatsapp className={styles.icon} />,
       title: 'WhatsApp',
-      value: '+1 (555) 123-4567',
+      value: '+91 7488107724',
       link: 'https://wa.me/15551234567',
     },
     {
