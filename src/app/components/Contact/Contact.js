@@ -9,13 +9,13 @@ const Contact = () => {
       icon: <FaPhone className={styles.icon} />,
       title: 'Phone',
       value: '+91 7488107724',
-      link: 'tel:+15551234567',
+      link: 'tel:+917488107724',
     },
     {
       icon: <FaWhatsapp className={styles.icon} />,
       title: 'WhatsApp',
       value: '+91 7488107724',
-      link: 'https://wa.me/15551234567',
+      link: 'https://wa.me/7488107724',
     },
     {
       icon: <FaEnvelope className={styles.icon} />,
