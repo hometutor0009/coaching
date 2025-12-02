@@ -1,0 +1,140 @@
+.subjects {
+  padding: 5rem 1rem;
+  background-color: var(--white);
+}
+
+.subtitle {
+  text-align: center;
+  color: var(--gray-700);
+  margin-bottom: 3rem;
+  font-size: 1.1rem;
+}
+
+.subjectGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.subjectCard {
+  background: var(--background);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  transition: var(--transition);
+  border: 1px solid var(--gray-200);
+  display: flex;
+  flex-direction: column;
+}
+
+.subjectCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.subjectHeader {
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
+  position: relative;
+}
+
+.iconContainer {
+  width: 60px;
+  height: 60px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1rem;
+}
+
+.subjectIcon {
+  font-size: 1.8rem;
+  color: white;
+}
+
+.subjectName {
+  font-size: 1.5rem;
+  margin: 0.5rem 0;
+  color: white;
+}
+
+.classLevel {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  margin-top: 0.5rem;
+}
+
+.description {
+  padding: 1.5rem;
+  color: var(--text-color);
+  flex-grow: 1;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.details {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 1.5rem 1.5rem;
+  border-top: 1px solid var(--gray-200);
+  margin-top: auto;
+}
+
+.detailItem {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--gray-700);
+  font-size: 0.9rem;
+}
+
+.detailIcon {
+  color: var(--primary-color);
+}
+
+.enrollButton {
+  display: block;
+  width: calc(100% - 3rem);
+  margin: 0 1.5rem 1.5rem;
+  padding: 0.8rem;
+  background: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.enrollButton:hover {
+  background: var(--secondary-color);
+  transform: translateY(-2px);
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .subjects {
+    background-color: var(--light-bg);
+  }
+  
+  .subjectCard {
+    border-color: var(--gray-700);
+  }
+  
+  .details {
+    border-top-color: var(--gray-700);
+  }
+  
+  .detailItem {
+    color: var(--gray-200);
+  }
+}
