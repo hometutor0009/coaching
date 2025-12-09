@@ -12,7 +12,7 @@ const Footer = () => {
       <div className={`${styles.container} container`}>
         <div className={styles.footerContent}>
           <div className={styles.footerSection}>
-            <h3 className={styles.footerHeading}>TutorPro</h3>
+            <h3 className={styles.footerHeading}>MSGM</h3>
             <p>Personalized home tutoring services to help you achieve academic excellence.</p>
             <div className={styles.socialLinks}>
               <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">

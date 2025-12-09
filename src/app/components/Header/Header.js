@@ -38,7 +38,7 @@ const Header = () => {
   return (
     <header className={styles.header}>
       <div className={`${styles.container} container`}>
-        <Link href="/" className={styles.logo} onClick={closeMenu}>besttutor</Link>
+        <Link href="/" className={styles.logo} onClick={closeMenu}>MSGM</Link>
         <nav className={`${styles.nav} ${isMenuOpen ? styles.navActive : ''}`}>
           <ul className={styles.navList}>
             <li><Link href="#home" className={styles.navLink} onClick={closeMenu}>Home</Link></li>
